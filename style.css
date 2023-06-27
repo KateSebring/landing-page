@@ -1,6 +1,7 @@
 body {
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     min-height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -9,15 +10,24 @@ header {
     color: #E5E7EB;
     background-color: #1F2937;
     font-size: 18px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.push {
+    margin-left: auto;
 }
 
 ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.link {
-    margin-left: auto;
+    gap: 20px;
+    width: 70%;
 }
