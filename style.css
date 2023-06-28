@@ -2,6 +2,8 @@ body {
     font-family: Roboto, Arial;
     min-height: 100vh;
     margin: 0;
+    display: flex;
+    flex-flow: column;
 }
 
 header {
@@ -143,15 +145,20 @@ section {
     font-weight: bold;
 }
 
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+}
+
 .call-to-action {
     background-color: #3882F6;
     display: flex;
-    margin: auto;
     width: 800px;
     justify-content: center;
-    padding: 20px 25px;
+    padding: 30px 25px;
     border-radius: 5px;
     gap: 40px;
+    margin: 80px 0px;
 }
 
 .call-text {
