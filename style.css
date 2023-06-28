@@ -49,7 +49,7 @@ ul {
     width: 500px;
 }
 
-p, h1, h2 {
+p, h1 {
     margin: 0;
 }
 
@@ -100,7 +100,12 @@ section {
     display: flex;
     align-items: center;
     flex-flow: column;
-    flex-basis: 300px;
+    flex-basis: 200px;
+    gap: 10px;
+}
+
+.box-container p {
+    color: #1F2937;
 }
 
 .box {
